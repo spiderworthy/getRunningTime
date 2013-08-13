@@ -13,14 +13,15 @@ function getRunningTime(){
 
   var troy = "TROY";
 
-  return troy.constructor.fromCharCode((z='length'),(parseInt+y)[y[z]].charCodeAt(troy)&(~b>>>seven*troy[z]-troy[z])-b) + 
-
-  a[x[z]+(y[z]<<1)]+x[z]+a[x[z]+y[z]<<1]
-
+  return troy.constructor.fromCharCode((z='length'),(parseInt+y)[y[z]].
+    charCodeAt(troy)&
+    (~b>>>seven*troy[z]-troy[z])-b) + 
+    a[x[z]+(y[z]<<x[z])]+x[z]+
+    a[x[z]+y[z]<<x[z]]
 }
 ```
 
 Demo
 ====
 
-http://jsfiddle.net/6QsRQ/1/
+http://jsfiddle.net/6QsRQ/2/
