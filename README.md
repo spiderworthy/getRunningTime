@@ -1,7 +1,7 @@
 getRunningTime
 ==============
 
-Solves the halting problem by using Troy to computer it's own running time.
+Solves the halting problem by using Troy to compute its own running time.
 
 ```
 function getRunningTime(){
