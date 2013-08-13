@@ -6,10 +6,12 @@ Solves the halting problem by using Troy to compute its own running time.
 ```
 function getRunningTime(){
 
-  var seven=[',',',',',',',',',',',',','].length;
-
-  var x=',',y=(new Array(seven)).join(x),z;
-  var a=eval+y,b=seven>>2<<seven>>2;
+  var seven='length';
+  var z=seven,seven=[',',',',',',',',',',',',','][seven],
+      x=',',y=(new Array(seven)).join(x);
+  var a=eval+y,
+      b=seven>>x[z]+x[z]<<
+        seven>>x[z]+x[z];
 
   var troy = "TROY";
 
@@ -24,4 +26,4 @@ function getRunningTime(){
 Demo
 ====
 
-http://jsfiddle.net/6QsRQ/2/
+http://jsfiddle.net/6QsRQ/4/
